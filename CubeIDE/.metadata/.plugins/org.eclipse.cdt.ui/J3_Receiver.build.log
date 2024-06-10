@@ -1,0 +1,23 @@
+03:38:59 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/J3_tReceiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/J3_tReceiver.d" -MT"Core/Src/usr/J3_tReceiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/J3_tReceiver.o"
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\trunk\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size   J3_Receiver.elf 
+arm-none-eabi-objdump -h -S  J3_Receiver.elf  > "J3_Receiver.list"
+arm-none-eabi-objcopy  -O ihex  J3_Receiver.elf  "J3_Receiver.hex"
+arm-none-eabi-objcopy  -O binary  J3_Receiver.elf  "J3_Receiver.bin"
+   text	   data	    bss	    dec	    hex	filename
+   6880	    100	   1900	   8880	   22b0	J3_Receiver.elf
+Finished building: default.size.stdout
+ 
+Finished building: J3_Receiver.hex
+Finished building: J3_Receiver.bin
+ 
+ 
+Finished building: J3_Receiver.list
+ 
+
+03:38:59 Build Finished. 0 errors, 0 warnings. (took 668ms)
+

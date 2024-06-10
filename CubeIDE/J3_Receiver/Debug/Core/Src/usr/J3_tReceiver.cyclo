@@ -1,0 +1,7 @@
+../Core/Src/usr/J3_tReceiver.c:13:13:j3_tReceiver_new	1
+../Core/Src/usr/J3_tReceiver.c:22:6:j3_tReceiver_OnInterfaceOptico	1
+../Core/Src/usr/J3_tReceiver.c:26:6:j3_tReceiver_OnInterfaceOptico2	1
+../Core/Src/usr/J3_tReceiver.c:30:6:j3_tReceiver_OnInterfaceCoaxial	1
+../Core/Src/usr/J3_tReceiver.c:37:6:j3_receiver_ProxEntrada	1
+../Core/Src/usr/J3_tReceiver.c:42:6:j3_receiver_setEntrada	2
+../Core/Src/usr/J3_tReceiver.c:53:17:j3_receiver_getEntrada	4

@@ -1,0 +1,40 @@
+2023-04-18 00:21:37,901 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 273263688 Bytes (726663168)
+2023-04-18 00:21:37,983 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 290208936 Bytes (726663168)
+2023-04-18 00:21:38,521 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 355877928 Bytes (726663168)
+2023-04-18 00:21:38,720 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-18 00:21:38,721 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-18 00:21:38,721 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-18 00:21:38,721 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-18 00:21:38,722 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2023-04-18 00:21:38,974 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\J3_Receiver.git\trunk\CubeIDE\J3_Receiver\MXTmpFiles\license.tmp_save
+2023-04-18 00:21:39,112 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\J3_Receiver.git\trunk\CubeIDE\J3_Receiver\MXTmpFiles\license.tmp
+2023-04-18 00:21:39,155 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\J3_Receiver.git\trunk\CubeIDE\J3_Receiver\Core\Src\gpio.c_save
+2023-04-18 00:21:39,271 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\J3_Receiver.git\trunk\CubeIDE\J3_Receiver\Core\Src\gpio.c
+2023-04-18 00:21:39,285 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\J3_Receiver.git\trunk\CubeIDE\J3_Receiver\Core\Inc\gpio.h_save
+2023-04-18 00:21:39,361 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\J3_Receiver.git\trunk\CubeIDE\J3_Receiver\Core\Inc\gpio.h
+2023-04-18 00:21:39,406 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\J3_Receiver.git\trunk\CubeIDE\J3_Receiver\Core\Src\stm32f4xx_it.c_save
+2023-04-18 00:21:39,614 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\J3_Receiver.git\trunk\CubeIDE\J3_Receiver\Core\Src\stm32f4xx_it.c
+2023-04-18 00:21:39,626 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\J3_Receiver.git\trunk\CubeIDE\J3_Receiver\Core\Inc\stm32f4xx_it.h_save
+2023-04-18 00:21:39,710 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\J3_Receiver.git\trunk\CubeIDE\J3_Receiver\Core\Inc\stm32f4xx_it.h
+2023-04-18 00:21:39,737 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\J3_Receiver.git\trunk\CubeIDE\J3_Receiver\Core\Src\stm32f4xx_hal_msp.c_save
+2023-04-18 00:21:39,866 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\J3_Receiver.git\trunk\CubeIDE\J3_Receiver\Core\Src\stm32f4xx_hal_msp.c
+2023-04-18 00:21:39,876 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\J3_Receiver.git\trunk\CubeIDE\J3_Receiver\MXTmpFiles\system.tmp_save
+2023-04-18 00:21:39,951 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\J3_Receiver.git\trunk\CubeIDE\J3_Receiver\MXTmpFiles\system.tmp
+2023-04-18 00:21:39,978 [INFO] CodeEngine:311 - oldGeneratedFile, C:\NelsonLima\Projetos\J3_Receiver.git\trunk\CubeIDE\J3_Receiver\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-04-18 00:21:40,141 [INFO] CodeEngine:335 - Generated code: C:\NelsonLima\Projetos\J3_Receiver.git\trunk\CubeIDE\J3_Receiver\Core\Inc\stm32f4xx_hal_conf.h
+2023-04-18 00:21:40,206 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\J3_Receiver.git\trunk\CubeIDE\J3_Receiver\Core\Inc\main.h_save
+2023-04-18 00:21:40,321 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\J3_Receiver.git\trunk\CubeIDE\J3_Receiver\Core\Inc\main.h
+2023-04-18 00:21:40,341 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\J3_Receiver.git\trunk\CubeIDE\J3_Receiver\Core\Src\main.c_save
+2023-04-18 00:21:40,470 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\J3_Receiver.git\trunk\CubeIDE\J3_Receiver\Core\Src\main.c
+2023-04-18 00:21:41,238 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 241mS.
+2023-04-18 00:21:41,241 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-04-18 00:21:41,604 [INFO] ConfigFileManager:1483 - The Die is : DIE431
+2023-04-18 00:21:41,612 [INFO] ApiDbMcu:507 - Load IP Config File for FATFS
+2023-04-18 00:21:41,623 [INFO] ApiDbMcu:507 - Load IP Config File for FREERTOS
+2023-04-18 00:21:41,631 [INFO] ApiDbMcu:507 - Load IP Config File for LIBJPEG
+2023-04-18 00:21:41,704 [INFO] ApiDbMcu:507 - Load IP Config File for MBEDTLS
+2023-04-18 00:21:41,739 [INFO] ApiDbMcu:507 - Load IP Config File for USB_DEVICE
+2023-04-18 00:21:41,755 [INFO] ApiDbMcu:507 - Load IP Config File for USB_HOST
+2023-04-18 00:21:43,128 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1887mS.
+2023-04-18 00:21:43,129 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-04-18 00:21:43,155 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
