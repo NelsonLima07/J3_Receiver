@@ -2,7 +2,16 @@ PinMap - Receiver
 STM32F411CEUx
 
 
-PA0 <- EntPower [Audio_Conversor]
-PB1 -> BtnInput [Audio_Conversor]
+INTERFACE DECODIFICADOR AUDIO
+PA0 <- EntPower [Audio_Conversor] /* Identifica se está ligado */
+
+PA1 <- Sinal LED Optico1 /* Ler se está ativo */
+PA2 <- Sinal LED Optico2
+PA3 <- Sinal LED Coaxial
+
+PB1 -> BtnInput [Audio_Conversor] /* Altera a entrada de Audio */
+
+
+
 
 
