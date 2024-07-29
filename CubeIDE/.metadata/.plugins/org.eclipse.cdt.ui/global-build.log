@@ -3791,3 +3791,1073 @@ Finished building: J3_Receiver.bin
  
 Finished building: J3_Receiver.list
  
+22:47:53 **** Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f411ceux.d" -MT"Core/Startup/startup_stm32f411ceux.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f411ceux.o" "../Core/Startup/startup_stm32f411ceux.s"
+arm-none-eabi-gcc "../Core/Src/usr/J3_tReceiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/J3_tReceiver.d" -MT"Core/Src/usr/J3_tReceiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/J3_tReceiver.o"
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+arm-none-eabi-gcc "../Core/Src/usr/tEncoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/tEncoder.d" -MT"Core/Src/usr/tEncoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/tEncoder.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+../Core/Src/usr/main_J3_Receiver.c: In function 'main_j3_receiver':
+../Core/Src/usr/main_J3_Receiver.c:50:10: warning: unused variable 'volume_master' [-Wunused-variable]
+   50 |   int8_t volume_master;
+      |          ^~~~~~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:49:10: warning: unused variable 'volume_sw' [-Wunused-variable]
+   49 |   int8_t volume_sw;  /* Subwoofer        */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:48:10: warning: unused variable 'volume_sr' [-Wunused-variable]
+   48 |   int8_t volume_sr;  /* SoundRound Right */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:47:10: warning: unused variable 'volume_sl' [-Wunused-variable]
+   47 |   int8_t volume_sl;  /* SoundRound Left  */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:46:10: warning: unused variable 'volume_fc' [-Wunused-variable]
+   46 |   int8_t volume_fc;  /* Front Center     */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:45:10: warning: unused variable 'volume_fr' [-Wunused-variable]
+   45 |   int8_t volume_fr;  /* Front Right      */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:44:10: warning: unused variable 'volume_fl' [-Wunused-variable]
+   44 |   int8_t volume_fl;  /* Front Left       */
+      |          ^~~~~~~~~
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+../Core/Src/usr/J3_tReceiver.c: In function 'j3_receiver_setEntrada':
+../Core/Src/usr/J3_tReceiver.c:44:20: error: 'receiver_t' has no member named 'audio_entrada'; did you mean 'audioEntrada'?
+   44 |   while(_receiver->audio_entrada != _entrada)
+      |                    ^~~~~~~~~~~~~
+      |                    audioEntrada
+../Core/Src/usr/J3_tReceiver.c: In function 'j3_receiver_getEntrada':
+../Core/Src/usr/J3_tReceiver.c:57:16: error: 'receiver_t' has no member named 'audio_entrada'; did you mean 'audioEntrada'?
+   57 |     _receiver->audio_entrada = rsOptico1;
+      |                ^~~~~~~~~~~~~
+      |                audioEntrada
+../Core/Src/usr/J3_tReceiver.c:62:16: error: 'receiver_t' has no member named 'audio_entrada'; did you mean 'audioEntrada'?
+   62 |     _receiver->audio_entrada = rsOptico2;
+      |                ^~~~~~~~~~~~~
+      |                audioEntrada
+../Core/Src/usr/J3_tReceiver.c:67:16: error: 'receiver_t' has no member named 'audio_entrada'; did you mean 'audioEntrada'?
+   67 |     _receiver->audio_entrada = rsCoaxial;
+      |                ^~~~~~~~~~~~~
+      |                audioEntrada
+../Core/Src/usr/J3_tReceiver.c:72:16: error: 'receiver_t' has no member named 'audio_entrada'; did you mean 'audioEntrada'?
+   72 |     _receiver->audio_entrada = rsAux;
+      |                ^~~~~~~~~~~~~
+      |                audioEntrada
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+make: *** [Core/Src/usr/subdir.mk:25: Core/Src/usr/J3_tReceiver.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+22:51:28 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/J3_tReceiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/J3_tReceiver.d" -MT"Core/Src/usr/J3_tReceiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/J3_tReceiver.o"
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+../Core/Src/usr/J3_tReceiver.c: In function 'j3_receiver_getEntrada':
+../Core/Src/usr/J3_tReceiver.c:57:16: error: 'receiver_t' has no member named 'audio_entrada'; did you mean 'audioEntrada'?
+   57 |     _receiver->audio_entrada = rsOptico1;
+      |                ^~~~~~~~~~~~~
+      |                audioEntrada
+../Core/Src/usr/J3_tReceiver.c:62:16: error: 'receiver_t' has no member named 'audio_entrada'; did you mean 'audioEntrada'?
+   62 |     _receiver->audio_entrada = rsOptico2;
+      |                ^~~~~~~~~~~~~
+      |                audioEntrada
+../Core/Src/usr/J3_tReceiver.c:67:16: error: 'receiver_t' has no member named 'audio_entrada'; did you mean 'audioEntrada'?
+   67 |     _receiver->audio_entrada = rsCoaxial;
+      |                ^~~~~~~~~~~~~
+      |                audioEntrada
+../Core/Src/usr/J3_tReceiver.c:72:16: error: 'receiver_t' has no member named 'audio_entrada'; did you mean 'audioEntrada'?
+   72 |     _receiver->audio_entrada = rsAux;
+      |                ^~~~~~~~~~~~~
+      |                audioEntrada
+make: *** [Core/Src/usr/subdir.mk:25: Core/Src/usr/J3_tReceiver.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/usr/main_J3_Receiver.c: In function 'main_j3_receiver':
+../Core/Src/usr/main_J3_Receiver.c:50:10: warning: unused variable 'volume_master' [-Wunused-variable]
+   50 |   int8_t volume_master;
+      |          ^~~~~~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:49:10: warning: unused variable 'volume_sw' [-Wunused-variable]
+   49 |   int8_t volume_sw;  /* Subwoofer        */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:48:10: warning: unused variable 'volume_sr' [-Wunused-variable]
+   48 |   int8_t volume_sr;  /* SoundRound Right */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:47:10: warning: unused variable 'volume_sl' [-Wunused-variable]
+   47 |   int8_t volume_sl;  /* SoundRound Left  */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:46:10: warning: unused variable 'volume_fc' [-Wunused-variable]
+   46 |   int8_t volume_fc;  /* Front Center     */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:45:10: warning: unused variable 'volume_fr' [-Wunused-variable]
+   45 |   int8_t volume_fr;  /* Front Right      */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:44:10: warning: unused variable 'volume_fl' [-Wunused-variable]
+   44 |   int8_t volume_fl;  /* Front Left       */
+      |          ^~~~~~~~~
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+22:51:35 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/J3_tReceiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/J3_tReceiver.d" -MT"Core/Src/usr/J3_tReceiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/J3_tReceiver.o"
+../Core/Src/usr/J3_tReceiver.c: In function 'j3_receiver_getEntrada':
+../Core/Src/usr/J3_tReceiver.c:57:16: error: 'receiver_t' has no member named 'audio_entrada'; did you mean 'audioEntrada'?
+   57 |     _receiver->audio_entrada = rsOptico1;
+      |                ^~~~~~~~~~~~~
+      |                audioEntrada
+../Core/Src/usr/J3_tReceiver.c:62:16: error: 'receiver_t' has no member named 'audio_entrada'; did you mean 'audioEntrada'?
+   62 |     _receiver->audio_entrada = rsOptico2;
+      |                ^~~~~~~~~~~~~
+      |                audioEntrada
+../Core/Src/usr/J3_tReceiver.c:67:16: error: 'receiver_t' has no member named 'audio_entrada'; did you mean 'audioEntrada'?
+   67 |     _receiver->audio_entrada = rsCoaxial;
+      |                ^~~~~~~~~~~~~
+      |                audioEntrada
+../Core/Src/usr/J3_tReceiver.c:72:16: error: 'receiver_t' has no member named 'audio_entrada'; did you mean 'audioEntrada'?
+   72 |     _receiver->audio_entrada = rsAux;
+      |                ^~~~~~~~~~~~~
+      |                audioEntrada
+make: *** [Core/Src/usr/subdir.mk:25: Core/Src/usr/J3_tReceiver.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+22:51:57 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/J3_tReceiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/J3_tReceiver.d" -MT"Core/Src/usr/J3_tReceiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/J3_tReceiver.o"
+../Core/Src/usr/J3_tReceiver.c: In function 'j3_receiver_getEntrada':
+../Core/Src/usr/J3_tReceiver.c:57:16: error: 'receiver_t' has no member named 'audio_entrada'; did you mean 'audioEntrada'?
+   57 |     _receiver->audio_entrada = rsOptico1;
+      |                ^~~~~~~~~~~~~
+      |                audioEntrada
+../Core/Src/usr/J3_tReceiver.c:62:16: error: 'receiver_t' has no member named 'audio_entrada'; did you mean 'audioEntrada'?
+   62 |     _receiver->audio_entrada = rsOptico2;
+      |                ^~~~~~~~~~~~~
+      |                audioEntrada
+../Core/Src/usr/J3_tReceiver.c:67:16: error: 'receiver_t' has no member named 'audio_entrada'; did you mean 'audioEntrada'?
+   67 |     _receiver->audio_entrada = rsCoaxial;
+      |                ^~~~~~~~~~~~~
+      |                audioEntrada
+make: *** [Core/Src/usr/subdir.mk:25: Core/Src/usr/J3_tReceiver.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+22:52:30 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/J3_tReceiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/J3_tReceiver.d" -MT"Core/Src/usr/J3_tReceiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/J3_tReceiver.o"
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\trunk\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+   text	   data	    bss	    dec	    hex	filename
+   6888	    100	   1900	   8888	   22b8	J3_Receiver.elf
+Finished building: default.size.stdout
+ 
+Finished building: J3_Receiver.hex
+Finished building: J3_Receiver.bin
+ 
+ 
+Finished building: J3_Receiver.list
+ 
+03:18:18 **** Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Core/lib/J3_PT2258.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/lib/J3_PT2258.d" -MT"Core/lib/J3_PT2258.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/lib/J3_PT2258.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f411ceux.d" -MT"Core/Startup/startup_stm32f411ceux.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f411ceux.o" "../Core/Startup/startup_stm32f411ceux.s"
+arm-none-eabi-gcc "../Core/Src/usr/J3_tReceiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/J3_tReceiver.d" -MT"Core/Src/usr/J3_tReceiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/J3_tReceiver.o"
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+arm-none-eabi-gcc "../Core/Src/usr/tEncoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/tEncoder.d" -MT"Core/Src/usr/tEncoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/tEncoder.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/i2c.d" -MT"Core/Src/i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/i2c.o"
+../Core/lib/J3_PT2258.c:10:10: fatal error: usr/J3_PT2258.h: No such file or directory
+   10 | #include "usr/J3_PT2258.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+../Core/Src/usr/main_J3_Receiver.c:10:10: fatal error: lib/J3_PT2258.h: No such file or directory
+   10 | #include "lib/J3_PT2258.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Core/lib/subdir.mk:19: Core/lib/J3_PT2258.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/usr/subdir.mk:25: Core/Src/usr/main_J3_Receiver.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+03:19:51 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+arm-none-eabi-gcc "../Core/Src/lib/J3_PT2258.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lib/J3_PT2258.d" -MT"Core/Src/lib/J3_PT2258.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lib/J3_PT2258.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+../Core/Src/lib/J3_PT2258.c:10:10: fatal error: usr/J3_PT2258.h: No such file or directory
+   10 | #include "usr/J3_PT2258.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+../Core/Src/usr/main_J3_Receiver.c:11:10: fatal error: lib/J3_PT2258.h: No such file or directory
+   11 | #include "lib/J3_PT2258.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Core/Src/lib/subdir.mk:19: Core/Src/lib/J3_PT2258.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/usr/subdir.mk:25: Core/Src/usr/main_J3_Receiver.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+03:22:42 **** Clean-only build of configuration Debug for project J3_Receiver ****
+make -j8 clean 
+rm -rf ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.su
+rm -rf ./Core/Startup/startup_stm32f411ceux.d ./Core/Startup/startup_stm32f411ceux.o
+rm -rf ./Core/Src/usr/J3_tReceiver.cyclo ./Core/Src/usr/J3_tReceiver.d ./Core/Src/usr/J3_tReceiver.o ./Core/Src/usr/J3_tReceiver.su ./Core/Src/usr/main_J3_Receiver.cyclo ./Core/Src/usr/main_J3_Receiver.d ./Core/Src/usr/main_J3_Receiver.o ./Core/Src/usr/main_J3_Receiver.su ./Core/Src/usr/tEncoder.cyclo ./Core/Src/usr/tEncoder.d ./Core/Src/usr/tEncoder.o ./Core/Src/usr/tEncoder.su
+rm -rf ./Core/Src/lib/J3_PT2258.cyclo ./Core/Src/lib/J3_PT2258.d ./Core/Src/lib/J3_PT2258.o ./Core/Src/lib/J3_PT2258.su
+rm -rf ./Core/Src/gpio.cyclo ./Core/Src/gpio.d ./Core/Src/gpio.o ./Core/Src/gpio.su ./Core/Src/i2c.cyclo ./Core/Src/i2c.d ./Core/Src/i2c.o ./Core/Src/i2c.su ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/stm32f4xx_hal_msp.cyclo ./Core/Src/stm32f4xx_hal_msp.d ./Core/Src/stm32f4xx_hal_msp.o ./Core/Src/stm32f4xx_hal_msp.su ./Core/Src/stm32f4xx_it.cyclo ./Core/Src/stm32f4xx_it.d ./Core/Src/stm32f4xx_it.o ./Core/Src/stm32f4xx_it.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32f4xx.cyclo ./Core/Src/system_stm32f4xx.d ./Core/Src/system_stm32f4xx.o ./Core/Src/system_stm32f4xx.su
+rm -rf J3_Receiver.bin J3_Receiver.elf J3_Receiver.hex J3_Receiver.list J3_Receiver.map default.size.stdout
+ 
+03:22:42 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f411ceux.d" -MT"Core/Startup/startup_stm32f411ceux.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f411ceux.o" "../Core/Startup/startup_stm32f411ceux.s"
+arm-none-eabi-gcc "../Core/Src/usr/J3_PT2258.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/J3_PT2258.d" -MT"Core/Src/usr/J3_PT2258.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/J3_PT2258.o"
+arm-none-eabi-gcc "../Core/Src/usr/J3_tReceiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/J3_tReceiver.d" -MT"Core/Src/usr/J3_tReceiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/J3_tReceiver.o"
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+arm-none-eabi-gcc "../Core/Src/usr/tEncoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/tEncoder.d" -MT"Core/Src/usr/tEncoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/tEncoder.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/i2c.d" -MT"Core/Src/i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/i2c.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/usr/main_J3_Receiver.c: In function 'main_j3_receiver':
+../Core/Src/usr/main_J3_Receiver.c:52:10: warning: unused variable 'volume_master' [-Wunused-variable]
+   52 |   int8_t volume_master;
+      |          ^~~~~~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:51:10: warning: unused variable 'volume_sw' [-Wunused-variable]
+   51 |   int8_t volume_sw;  /* Subwoofer        */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:50:10: warning: unused variable 'volume_sr' [-Wunused-variable]
+   50 |   int8_t volume_sr;  /* SoundRound Right */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:49:10: warning: unused variable 'volume_sl' [-Wunused-variable]
+   49 |   int8_t volume_sl;  /* SoundRound Left  */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:48:10: warning: unused variable 'volume_fc' [-Wunused-variable]
+   48 |   int8_t volume_fc;  /* Front Center     */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:47:10: warning: unused variable 'volume_fr' [-Wunused-variable]
+   47 |   int8_t volume_fr;  /* Front Right      */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:46:10: warning: unused variable 'volume_fl' [-Wunused-variable]
+   46 |   int8_t volume_fl;  /* Front Left       */
+      |          ^~~~~~~~~
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\branch\main\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+   text	   data	    bss	    dec	    hex	filename
+   7848	    100	   1988	   9936	   26d0	J3_Receiver.elf
+Finished building: default.size.stdout
+ 
+Finished building: J3_Receiver.hex
+Finished building: J3_Receiver.bin
+ 
+ 
+Finished building: J3_Receiver.list
+ 
+03:29:21 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/J3_PT2258.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/J3_PT2258.d" -MT"Core/Src/usr/J3_PT2258.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/J3_PT2258.o"
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+../Core/Src/usr/main_J3_Receiver.c: In function 'main_j3_receiver':
+../Core/Src/usr/main_J3_Receiver.c:53:10: warning: unused variable 'volume_master' [-Wunused-variable]
+   53 |   int8_t volume_master;
+      |          ^~~~~~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:52:10: warning: unused variable 'volume_sw' [-Wunused-variable]
+   52 |   int8_t volume_sw;  /* Subwoofer        */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:51:10: warning: unused variable 'volume_sr' [-Wunused-variable]
+   51 |   int8_t volume_sr;  /* SoundRound Right */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:50:10: warning: unused variable 'volume_sl' [-Wunused-variable]
+   50 |   int8_t volume_sl;  /* SoundRound Left  */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:49:10: warning: unused variable 'volume_fc' [-Wunused-variable]
+   49 |   int8_t volume_fc;  /* Front Center     */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:48:10: warning: unused variable 'volume_fr' [-Wunused-variable]
+   48 |   int8_t volume_fr;  /* Front Right      */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:47:10: warning: unused variable 'volume_fl' [-Wunused-variable]
+   47 |   int8_t volume_fl;  /* Front Left       */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:45:12: warning: unused variable 'controleAudio' [-Wunused-variable]
+   45 |   TPT2258* controleAudio;
+      |            ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\branch\main\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+   text	   data	    bss	    dec	    hex	filename
+   7848	    100	   1988	   9936	   26d0	J3_Receiver.elf
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+ 
+Finished building: J3_Receiver.hex
+Finished building: J3_Receiver.list
+ 
+Finished building: J3_Receiver.bin
+ 
+ 
+03:32:33 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+../Core/Src/usr/main_J3_Receiver.c: In function 'main_j3_receiver':
+../Core/Src/usr/main_J3_Receiver.c:53:10: warning: unused variable 'volume_master' [-Wunused-variable]
+   53 |   int8_t volume_master;
+      |          ^~~~~~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:52:10: warning: unused variable 'volume_sw' [-Wunused-variable]
+   52 |   int8_t volume_sw;  /* Subwoofer        */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:51:10: warning: unused variable 'volume_sr' [-Wunused-variable]
+   51 |   int8_t volume_sr;  /* SoundRound Right */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:50:10: warning: unused variable 'volume_sl' [-Wunused-variable]
+   50 |   int8_t volume_sl;  /* SoundRound Left  */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:49:10: warning: unused variable 'volume_fc' [-Wunused-variable]
+   49 |   int8_t volume_fc;  /* Front Center     */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:48:10: warning: unused variable 'volume_fr' [-Wunused-variable]
+   48 |   int8_t volume_fr;  /* Front Right      */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:47:10: warning: unused variable 'volume_fl' [-Wunused-variable]
+   47 |   int8_t volume_fl;  /* Front Left       */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:45:12: warning: variable 'controleVolume' set but not used [-Wunused-but-set-variable]
+   45 |   TPT2258* controleVolume;
+      |            ^~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\branch\main\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+   text	   data	    bss	    dec	    hex	filename
+   7904	    100	   1988	   9992	   2708	J3_Receiver.elf
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+ 
+Finished building: J3_Receiver.hex
+Finished building: J3_Receiver.list
+ 
+Finished building: J3_Receiver.bin
+ 
+ 
+22:55:32 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+../Core/Src/usr/main_J3_Receiver.c: In function 'main_j3_receiver':
+../Core/Src/usr/main_J3_Receiver.c:65:19: error: 'controleAudio' undeclared (first use in this function)
+   65 |   J3_PT2258_reset(controleAudio);
+      |                   ^~~~~~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:65:19: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/usr/main_J3_Receiver.c:67:46: error: 'ch1_vol' undeclared (first use in this function)
+   67 |   J3_PT2258_setVolumeCanal(controleAudio, 1, ch1_vol);
+      |                                              ^~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:53:10: warning: unused variable 'volume_master' [-Wunused-variable]
+   53 |   int8_t volume_master;
+      |          ^~~~~~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:52:10: warning: unused variable 'volume_sw' [-Wunused-variable]
+   52 |   int8_t volume_sw;  /* Subwoofer        */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:51:10: warning: unused variable 'volume_sr' [-Wunused-variable]
+   51 |   int8_t volume_sr;  /* SoundRound Right */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:50:10: warning: unused variable 'volume_sl' [-Wunused-variable]
+   50 |   int8_t volume_sl;  /* SoundRound Left  */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:49:10: warning: unused variable 'volume_fc' [-Wunused-variable]
+   49 |   int8_t volume_fc;  /* Front Center     */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:48:10: warning: unused variable 'volume_fr' [-Wunused-variable]
+   48 |   int8_t volume_fr;  /* Front Right      */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:47:10: warning: unused variable 'volume_fl' [-Wunused-variable]
+   47 |   int8_t volume_fl;  /* Front Left       */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:45:12: warning: variable 'controleVolume' set but not used [-Wunused-but-set-variable]
+   45 |   TPT2258* controleVolume;
+      |            ^~~~~~~~~~~~~~
+make: *** [Core/Src/usr/subdir.mk:28: Core/Src/usr/main_J3_Receiver.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+22:59:15 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+../Core/Src/usr/main_J3_Receiver.c: In function 'main_j3_receiver':
+../Core/Src/usr/main_J3_Receiver.c:53:10: warning: unused variable 'volume_master' [-Wunused-variable]
+   53 |   int8_t volume_master;
+      |          ^~~~~~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:52:10: warning: unused variable 'volume_sw' [-Wunused-variable]
+   52 |   int8_t volume_sw;  /* Subwoofer        */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:51:10: warning: unused variable 'volume_sr' [-Wunused-variable]
+   51 |   int8_t volume_sr;  /* SoundRound Right */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:50:10: warning: unused variable 'volume_sl' [-Wunused-variable]
+   50 |   int8_t volume_sl;  /* SoundRound Left  */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:49:10: warning: unused variable 'volume_fc' [-Wunused-variable]
+   49 |   int8_t volume_fc;  /* Front Center     */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:48:10: warning: unused variable 'volume_fr' [-Wunused-variable]
+   48 |   int8_t volume_fr;  /* Front Right      */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:47:10: warning: unused variable 'volume_fl' [-Wunused-variable]
+   47 |   int8_t volume_fl;  /* Front Left       */
+      |          ^~~~~~~~~
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\branch\main\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+   text	   data	    bss	    dec	    hex	filename
+   9908	    108	   1988	  12004	   2ee4	J3_Receiver.elf
+Finished building: default.size.stdout
+ 
+Finished building: J3_Receiver.bin
+Finished building: J3_Receiver.hex
+ 
+ 
+Finished building: J3_Receiver.list
+ 
+22:59:57 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-size  J3_Receiver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9908	    108	   1988	  12004	   2ee4	J3_Receiver.elf
+Finished building: default.size.stdout
+ 
+23:00:26 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-size  J3_Receiver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9908	    108	   1988	  12004	   2ee4	J3_Receiver.elf
+Finished building: default.size.stdout
+ 
+23:02:05 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+../Core/Src/usr/main_J3_Receiver.c: In function 'main_j3_receiver':
+../Core/Src/usr/main_J3_Receiver.c:53:10: warning: unused variable 'volume_master' [-Wunused-variable]
+   53 |   int8_t volume_master;
+      |          ^~~~~~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:52:10: warning: unused variable 'volume_sw' [-Wunused-variable]
+   52 |   int8_t volume_sw;  /* Subwoofer        */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:51:10: warning: unused variable 'volume_sr' [-Wunused-variable]
+   51 |   int8_t volume_sr;  /* SoundRound Right */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:50:10: warning: unused variable 'volume_sl' [-Wunused-variable]
+   50 |   int8_t volume_sl;  /* SoundRound Left  */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:49:10: warning: unused variable 'volume_fc' [-Wunused-variable]
+   49 |   int8_t volume_fc;  /* Front Center     */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:48:10: warning: unused variable 'volume_fr' [-Wunused-variable]
+   48 |   int8_t volume_fr;  /* Front Right      */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:47:10: warning: unused variable 'volume_fl' [-Wunused-variable]
+   47 |   int8_t volume_fl;  /* Front Left       */
+      |          ^~~~~~~~~
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\branch\main\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+   text	   data	    bss	    dec	    hex	filename
+   9748	    108	   1988	  11844	   2e44	J3_Receiver.elf
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+ 
+Finished building: J3_Receiver.hex
+ 
+Finished building: J3_Receiver.list
+Finished building: J3_Receiver.bin
+ 
+ 
+23:02:10 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-size  J3_Receiver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9748	    108	   1988	  11844	   2e44	J3_Receiver.elf
+Finished building: default.size.stdout
+ 
+23:02:19 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-size  J3_Receiver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9748	    108	   1988	  11844	   2e44	J3_Receiver.elf
+Finished building: default.size.stdout
+ 
+23:06:50 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-size  J3_Receiver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9748	    108	   1988	  11844	   2e44	J3_Receiver.elf
+Finished building: default.size.stdout
+ 
+23:12:57 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/i2c.d" -MT"Core/Src/i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/i2c.o"
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\branch\main\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+   text	   data	    bss	    dec	    hex	filename
+   9748	    108	   1988	  11844	   2e44	J3_Receiver.elf
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+ 
+Finished building: J3_Receiver.hex
+Finished building: J3_Receiver.bin
+ 
+ 
+Finished building: J3_Receiver.list
+ 
+23:29:01 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/J3_PT2258.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/J3_PT2258.d" -MT"Core/Src/usr/J3_PT2258.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/J3_PT2258.o"
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/i2c.d" -MT"Core/Src/i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/i2c.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+../Core/Src/usr/main_J3_Receiver.c: In function 'main_j3_receiver':
+../Core/Src/usr/main_J3_Receiver.c:53:10: warning: unused variable 'volume_master' [-Wunused-variable]
+   53 |   int8_t volume_master;
+      |          ^~~~~~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:52:10: warning: unused variable 'volume_sw' [-Wunused-variable]
+   52 |   int8_t volume_sw;  /* Subwoofer        */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:51:10: warning: unused variable 'volume_sr' [-Wunused-variable]
+   51 |   int8_t volume_sr;  /* SoundRound Right */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:50:10: warning: unused variable 'volume_sl' [-Wunused-variable]
+   50 |   int8_t volume_sl;  /* SoundRound Left  */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:49:10: warning: unused variable 'volume_fc' [-Wunused-variable]
+   49 |   int8_t volume_fc;  /* Front Center     */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:48:10: warning: unused variable 'volume_fr' [-Wunused-variable]
+   48 |   int8_t volume_fr;  /* Front Right      */
+      |          ^~~~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:47:10: warning: unused variable 'volume_fl' [-Wunused-variable]
+   47 |   int8_t volume_fl;  /* Front Left       */
+      |          ^~~~~~~~~
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\branch\main\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+   text	   data	    bss	    dec	    hex	filename
+   9896	    108	   1988	  11992	   2ed8	J3_Receiver.elf
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+ 
+Finished building: J3_Receiver.hex
+ 
+Finished building: J3_Receiver.bin
+ 
+Finished building: J3_Receiver.list
+ 
+23:32:57 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\branch\main\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+   text	   data	    bss	    dec	    hex	filename
+   6932	     20	   1652	   8604	   219c	J3_Receiver.elf
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+ 
+Finished building: J3_Receiver.hex
+Finished building: J3_Receiver.list
+ 
+ 
+Finished building: J3_Receiver.bin
+ 
+23:34:56 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\branch\main\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+   text	   data	    bss	    dec	    hex	filename
+   9540	    108	   1988	  11636	   2d74	J3_Receiver.elf
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+ 
+Finished building: J3_Receiver.hex
+Finished building: J3_Receiver.list
+ 
+Finished building: J3_Receiver.bin
+ 
+ 
+23:36:56 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+../Core/Src/usr/main_J3_Receiver.c: In function 'main_j3_receiver':
+../Core/Src/usr/main_J3_Receiver.c:63:11: warning: unused variable 'ch1_vol' [-Wunused-variable]
+   63 |   uint8_t ch1_vol = 70;
+      |           ^~~~~~~
+../Core/Src/usr/main_J3_Receiver.c:45:12: warning: variable 'controleVolume' set but not used [-Wunused-but-set-variable]
+   45 |   TPT2258* controleVolume;
+      |            ^~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\branch\main\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+   text	   data	    bss	    dec	    hex	filename
+   7540	    100	   1988	   9628	   259c	J3_Receiver.elf
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+ 
+Finished building: J3_Receiver.hex
+Finished building: J3_Receiver.list
+ 
+Finished building: J3_Receiver.bin
+ 
+ 
+23:48:31 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+../Core/Src/usr/main_J3_Receiver.c: In function 'main_j3_receiver':
+../Core/Src/usr/main_J3_Receiver.c:63:11: warning: unused variable 'ch1_vol' [-Wunused-variable]
+   63 |   uint8_t ch1_vol = 70;
+      |           ^~~~~~~
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\branch\main\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+   text	   data	    bss	    dec	    hex	filename
+   9548	    108	   1988	  11644	   2d7c	J3_Receiver.elf
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+ 
+Finished building: J3_Receiver.hex
+ 
+Finished building: J3_Receiver.bin
+Finished building: J3_Receiver.list
+ 
+ 
+00:18:16 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+../Core/Src/usr/main_J3_Receiver.c: In function 'main_j3_receiver':
+../Core/Src/usr/main_J3_Receiver.c:75:51: warning: unsigned conversion from 'int' to 'uint8_t' {aka 'unsigned char'} changes value from '750' to '238' [-Woverflow]
+   75 |       J3_PT2258_setVolumeCanal(controleVolume, 3, 750);
+      |                                                   ^~~
+../Core/Src/usr/main_J3_Receiver.c:63:11: warning: unused variable 'ch1_vol' [-Wunused-variable]
+   63 |   uint8_t ch1_vol = 70;
+      |           ^~~~~~~
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\branch\main\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+   text	   data	    bss	    dec	    hex	filename
+   9588	    108	   1988	  11684	   2da4	J3_Receiver.elf
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+ 
+Finished building: J3_Receiver.hex
+ 
+Finished building: J3_Receiver.bin
+Finished building: J3_Receiver.list
+ 
+ 
+00:22:05 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-size  J3_Receiver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9588	    108	   1988	  11684	   2da4	J3_Receiver.elf
+Finished building: default.size.stdout
+ 
+00:23:44 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-size  J3_Receiver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9588	    108	   1988	  11684	   2da4	J3_Receiver.elf
+Finished building: default.size.stdout
+ 
+00:24:48 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-size  J3_Receiver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9588	    108	   1988	  11684	   2da4	J3_Receiver.elf
+Finished building: default.size.stdout
+ 
+00:28:27 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-size  J3_Receiver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9588	    108	   1988	  11684	   2da4	J3_Receiver.elf
+Finished building: default.size.stdout
+ 
+00:29:13 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-size  J3_Receiver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9588	    108	   1988	  11684	   2da4	J3_Receiver.elf
+Finished building: default.size.stdout
+ 
+00:30:05 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-size  J3_Receiver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9588	    108	   1988	  11684	   2da4	J3_Receiver.elf
+Finished building: default.size.stdout
+ 
+00:32:38 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/J3_PT2258.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/J3_PT2258.d" -MT"Core/Src/usr/J3_PT2258.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/J3_PT2258.o"
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\branch\main\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+   text	   data	    bss	    dec	    hex	filename
+   9588	    108	   1988	  11684	   2da4	J3_Receiver.elf
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+ 
+Finished building: J3_Receiver.hex
+Finished building: J3_Receiver.bin
+Finished building: J3_Receiver.list
+ 
+ 
+ 
+00:32:49 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-size  J3_Receiver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9588	    108	   1988	  11684	   2da4	J3_Receiver.elf
+Finished building: default.size.stdout
+ 
+01:07:19 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+../Core/Src/usr/main_J3_Receiver.c: In function 'main_j3_receiver':
+../Core/Src/usr/main_J3_Receiver.c:63:11: warning: unused variable 'ch1_vol' [-Wunused-variable]
+   63 |   uint8_t ch1_vol = 70;
+      |           ^~~~~~~
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\branch\main\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+   text	   data	    bss	    dec	    hex	filename
+   9548	    108	   1988	  11644	   2d7c	J3_Receiver.elf
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+ 
+Finished building: J3_Receiver.hex
+Finished building: J3_Receiver.bin
+ 
+Finished building: J3_Receiver.list
+ 
+ 
+01:09:22 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+../Core/Src/usr/main_J3_Receiver.c: In function 'main_j3_receiver':
+../Core/Src/usr/main_J3_Receiver.c:63:11: warning: unused variable 'ch1_vol' [-Wunused-variable]
+   63 |   uint8_t ch1_vol = 70;
+      |           ^~~~~~~
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\branch\main\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+   text	   data	    bss	    dec	    hex	filename
+   9556	    108	   1988	  11652	   2d84	J3_Receiver.elf
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+ 
+Finished building: J3_Receiver.hex
+ 
+Finished building: J3_Receiver.bin
+Finished building: J3_Receiver.list
+ 
+ 
+01:12:24 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+../Core/Src/usr/main_J3_Receiver.c: In function 'main_j3_receiver':
+../Core/Src/usr/main_J3_Receiver.c:63:11: warning: unused variable 'ch1_vol' [-Wunused-variable]
+   63 |   uint8_t ch1_vol = 70;
+      |           ^~~~~~~
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\branch\main\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+   text	   data	    bss	    dec	    hex	filename
+   9608	    108	   1988	  11704	   2db8	J3_Receiver.elf
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+ 
+Finished building: J3_Receiver.hex
+ 
+Finished building: J3_Receiver.list
+Finished building: J3_Receiver.bin
+ 
+ 
+01:13:54 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+../Core/Src/usr/main_J3_Receiver.c: In function 'main_j3_receiver':
+../Core/Src/usr/main_J3_Receiver.c:63:11: warning: unused variable 'ch1_vol' [-Wunused-variable]
+   63 |   uint8_t ch1_vol = 70;
+      |           ^~~~~~~
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\branch\main\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+   text	   data	    bss	    dec	    hex	filename
+   9608	    108	   1988	  11704	   2db8	J3_Receiver.elf
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+ 
+Finished building: J3_Receiver.hex
+ 
+Finished building: J3_Receiver.bin
+Finished building: J3_Receiver.list
+ 
+ 
+01:14:42 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+../Core/Src/usr/main_J3_Receiver.c: In function 'main_j3_receiver':
+../Core/Src/usr/main_J3_Receiver.c:63:11: warning: unused variable 'ch1_vol' [-Wunused-variable]
+   63 |   uint8_t ch1_vol = 70;
+      |           ^~~~~~~
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\branch\main\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+   text	   data	    bss	    dec	    hex	filename
+   9608	    108	   1988	  11704	   2db8	J3_Receiver.elf
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+ 
+Finished building: J3_Receiver.hex
+ 
+Finished building: J3_Receiver.list
+Finished building: J3_Receiver.bin
+ 
+ 
+01:15:51 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+../Core/Src/usr/main_J3_Receiver.c: In function 'main_j3_receiver':
+../Core/Src/usr/main_J3_Receiver.c:63:11: warning: unused variable 'ch1_vol' [-Wunused-variable]
+   63 |   uint8_t ch1_vol = 70;
+      |           ^~~~~~~
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\branch\main\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+   text	   data	    bss	    dec	    hex	filename
+   9608	    108	   1988	  11704	   2db8	J3_Receiver.elf
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+ 
+Finished building: J3_Receiver.hex
+ 
+Finished building: J3_Receiver.bin
+Finished building: J3_Receiver.list
+ 
+ 
+01:16:27 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+../Core/Src/usr/main_J3_Receiver.c: In function 'main_j3_receiver':
+../Core/Src/usr/main_J3_Receiver.c:63:11: warning: unused variable 'ch1_vol' [-Wunused-variable]
+   63 |   uint8_t ch1_vol = 70;
+      |           ^~~~~~~
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\branch\main\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+   text	   data	    bss	    dec	    hex	filename
+   9608	    108	   1988	  11704	   2db8	J3_Receiver.elf
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+ 
+Finished building: J3_Receiver.hex
+ 
+Finished building: J3_Receiver.bin
+Finished building: J3_Receiver.list
+ 
+ 
+01:17:07 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+../Core/Src/usr/main_J3_Receiver.c: In function 'main_j3_receiver':
+../Core/Src/usr/main_J3_Receiver.c:63:11: warning: unused variable 'ch1_vol' [-Wunused-variable]
+   63 |   uint8_t ch1_vol = 70;
+      |           ^~~~~~~
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\branch\main\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+   text	   data	    bss	    dec	    hex	filename
+   9608	    108	   1988	  11704	   2db8	J3_Receiver.elf
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+ 
+Finished building: J3_Receiver.hex
+ 
+Finished building: J3_Receiver.bin
+Finished building: J3_Receiver.list
+ 
+ 
+01:22:47 **** Incremental Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/main_J3_Receiver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_J3_Receiver.d" -MT"Core/Src/usr/main_J3_Receiver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_J3_Receiver.o"
+../Core/Src/usr/main_J3_Receiver.c: In function 'main_j3_receiver':
+../Core/Src/usr/main_J3_Receiver.c:63:11: warning: unused variable 'ch1_vol' [-Wunused-variable]
+   63 |   uint8_t ch1_vol = 70;
+      |           ^~~~~~~
+arm-none-eabi-gcc -o "J3_Receiver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\J3_Receiver.git\branch\main\CubeIDE\J3_Receiver\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="J3_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: J3_Receiver.elf has a LOAD segment with RWX permissions
+Finished building target: J3_Receiver.elf
+ 
+arm-none-eabi-size  J3_Receiver.elf 
+arm-none-eabi-objdump -h -S J3_Receiver.elf  > "J3_Receiver.list"
+   text	   data	    bss	    dec	    hex	filename
+   9648	    108	   1988	  11744	   2de0	J3_Receiver.elf
+arm-none-eabi-objcopy  -O ihex J3_Receiver.elf  "J3_Receiver.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary J3_Receiver.elf  "J3_Receiver.bin"
+ 
+Finished building: J3_Receiver.hex
+Finished building: J3_Receiver.list
+ 
+Finished building: J3_Receiver.bin
+ 
+ 
+21:48:30 **** Build of configuration Debug for project J3_Receiver ****
+make -j8 all 
+arm-none-eabi-size  J3_Receiver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9648	    108	   1988	  11744	   2de0	J3_Receiver.elf
+Finished building: default.size.stdout
+ 

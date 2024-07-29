@@ -20,17 +20,29 @@
 enum receiverInput {rsOptico1, rsOptico2, rsCoaxial, rsAux };
 typedef enum receiverInput receiverInput_t;
 
+enum receiverTipoAudio {ta21, ta51 };
+typedef enum receiverTipoAudio receiverTipoAudio_t;
+
+
 typedef void(*btnInput)(void);
 typedef uint8_t(*inputInterface)(void);
 
 typedef struct {
   bool ligado;
-  char audio_tipo;  /* 2.1 ou 5.1 */
-  receiverInput_t  audio_entrada;
+  receiverTipoAudio_t audioTipo;  /* 2.1 ou 5.1 */
+  receiverInput_t  audioEntrada;
   btnInput onBtnInput;
   inputInterface onInputOptico;
   inputInterface onInputOptico2;
   inputInterface onInputCoaxial;
+
+  int8_t volume_fl;  /* Front Left       */
+  int8_t volume_fr;  /* Front Right      */
+  int8_t volume_fc;  /* Front Center     */
+  int8_t volume_sl;  /* SoundRound Left  */
+  int8_t volume_sr;  /* SoundRound Right */
+  int8_t volume_sw;  /* Subwoofer        */
+  int8_t volume_master;
 
 } receiver_t;
 

@@ -1,5 +1,5 @@
-../Core/Src/usr/main_J3_Receiver.c:15:6:DoBtnInput	1
-../Core/Src/usr/main_J3_Receiver.c:23:9:DoInterfaceOptica	1
-../Core/Src/usr/main_J3_Receiver.c:28:9:DoInterfaceOprtica2	1
-../Core/Src/usr/main_J3_Receiver.c:33:9:DoInterfaceCoaxial	1
-../Core/Src/usr/main_J3_Receiver.c:39:6:main_j3_receiver	1
+../Core/Src/usr/main_J3_Receiver.c:17:6:DoBtnInput	1
+../Core/Src/usr/main_J3_Receiver.c:25:9:DoInterfaceOptica	1
+../Core/Src/usr/main_J3_Receiver.c:30:9:DoInterfaceOprtica2	1
+../Core/Src/usr/main_J3_Receiver.c:35:9:DoInterfaceCoaxial	1
+../Core/Src/usr/main_J3_Receiver.c:41:6:main_j3_receiver	1

@@ -1,20 +1,23 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (11.3.rel1)
+# Toolchain: GNU Tools for STM32 (12.3.rel1)
 ################################################################################
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../Core/Src/usr/J3_PT2258.c \
 ../Core/Src/usr/J3_tReceiver.c \
 ../Core/Src/usr/main_J3_Receiver.c \
 ../Core/Src/usr/tEncoder.c 
 
 OBJS += \
+./Core/Src/usr/J3_PT2258.o \
 ./Core/Src/usr/J3_tReceiver.o \
 ./Core/Src/usr/main_J3_Receiver.o \
 ./Core/Src/usr/tEncoder.o 
 
 C_DEPS += \
+./Core/Src/usr/J3_PT2258.d \
 ./Core/Src/usr/J3_tReceiver.d \
 ./Core/Src/usr/main_J3_Receiver.d \
 ./Core/Src/usr/tEncoder.d 
@@ -27,7 +30,7 @@ Core/Src/usr/%.o Core/Src/usr/%.su Core/Src/usr/%.cyclo: ../Core/Src/usr/%.c Cor
 clean: clean-Core-2f-Src-2f-usr
 
 clean-Core-2f-Src-2f-usr:
-	-$(RM) ./Core/Src/usr/J3_tReceiver.cyclo ./Core/Src/usr/J3_tReceiver.d ./Core/Src/usr/J3_tReceiver.o ./Core/Src/usr/J3_tReceiver.su ./Core/Src/usr/main_J3_Receiver.cyclo ./Core/Src/usr/main_J3_Receiver.d ./Core/Src/usr/main_J3_Receiver.o ./Core/Src/usr/main_J3_Receiver.su ./Core/Src/usr/tEncoder.cyclo ./Core/Src/usr/tEncoder.d ./Core/Src/usr/tEncoder.o ./Core/Src/usr/tEncoder.su
+	-$(RM) ./Core/Src/usr/J3_PT2258.cyclo ./Core/Src/usr/J3_PT2258.d ./Core/Src/usr/J3_PT2258.o ./Core/Src/usr/J3_PT2258.su ./Core/Src/usr/J3_tReceiver.cyclo ./Core/Src/usr/J3_tReceiver.d ./Core/Src/usr/J3_tReceiver.o ./Core/Src/usr/J3_tReceiver.su ./Core/Src/usr/main_J3_Receiver.cyclo ./Core/Src/usr/main_J3_Receiver.d ./Core/Src/usr/main_J3_Receiver.o ./Core/Src/usr/main_J3_Receiver.su ./Core/Src/usr/tEncoder.cyclo ./Core/Src/usr/tEncoder.d ./Core/Src/usr/tEncoder.o ./Core/Src/usr/tEncoder.su
 
 .PHONY: clean-Core-2f-Src-2f-usr
 
