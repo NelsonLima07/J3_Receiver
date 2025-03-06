@@ -1,15 +1,30 @@
 PinMap - Receiver 
 STM32F411CEUx
 
+# INTERFACE DO PT2258(I2C)
+PB9 <-> I2C1_SDA 
+PB8 <-> I2C1_SCL 
 
-INTERFACE DECODIFICADOR AUDIO
+
+
+# INTERFACE DECODIFICADOR AUDIO
 PA0 <- EntPower [Audio_Conversor] /* Identifica se está ligado */
 
 PA1 <- Sinal LED Optico1 /* Ler se está ativo */
 PA2 <- Sinal LED Optico2
 PA3 <- Sinal LED Coaxial
 
-PB1 -> BtnInput [Audio_Conversor] /* Altera a entrada de Audio */
+PA15 -> BtnInput [Audio_Conversor] /* Altera a entrada de Audio */
+
+
+# INTERFACE DO DENCODER ROTATIVO
+
+PA10 <- Encoder_SW
+PA11 <- Encoder_DT
+PA12 <- Encoder_CLK
+
+
+
 
 
 

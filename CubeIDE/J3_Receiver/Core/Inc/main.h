@@ -69,6 +69,12 @@ void Error_Handler(void);
 #define ENT_D3_GPIO_Port GPIOA
 #define BTN_INPUT_Pin GPIO_PIN_1
 #define BTN_INPUT_GPIO_Port GPIOB
+#define ENCODER_BTN_Pin GPIO_PIN_10
+#define ENCODER_BTN_GPIO_Port GPIOA
+#define ENCODER_DT_Pin GPIO_PIN_11
+#define ENCODER_DT_GPIO_Port GPIOA
+#define ENCODER_CLK_Pin GPIO_PIN_12
+#define ENCODER_CLK_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 

@@ -2,4 +2,5 @@
 ../Core/Src/usr/main_J3_Receiver.c:25:9:DoInterfaceOptica	8	static
 ../Core/Src/usr/main_J3_Receiver.c:30:9:DoInterfaceOprtica2	8	static
 ../Core/Src/usr/main_J3_Receiver.c:35:9:DoInterfaceCoaxial	8	static
-../Core/Src/usr/main_J3_Receiver.c:41:6:main_j3_receiver	16	static
+../Core/Src/usr/main_J3_Receiver.c:42:6:HAL_GPIO_EXIT_Falling_Callback	16	static
+../Core/Src/usr/main_J3_Receiver.c:61:6:main_j3_receiver	16	static

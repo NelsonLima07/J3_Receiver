@@ -38,6 +38,26 @@ uint8_t DoInterfaceCoaxial(void)
 }
 
 
+
+void HAL_GPIO_EXIT_Falling_Callback(uint16_t GPIO_Pin)
+{
+  if(GPIO_Pin == ENCODER_BTN_Pin)
+  {
+
+  }
+
+  if(GPIO_Pin == ENCODER_CLK_Pin)
+  {
+
+  }
+  if(GPIO_Pin == ENCODER_DT_Pin)
+  {
+
+  }
+}
+
+
+
 void main_j3_receiver()
 {
 
