@@ -10,12 +10,13 @@
 //#include "main.h"
 #include "usr/J3_tReceiver.h"
 
-receiver_t* j3_tReceiver_new(btnInput _funcBtnInput)
+receiver_t* j3_tReceiver_new()
 {
   receiver_t*  auxReceiver;
 
   auxReceiver = malloc(sizeof(receiver_t));
-  auxReceiver->onBtnInput = _funcBtnInput;
+  auxReceiver->volume_master_mute = true;
+  //auxReceiver->onBtnInput = _funcBtnInput;
   return auxReceiver;
 }
 

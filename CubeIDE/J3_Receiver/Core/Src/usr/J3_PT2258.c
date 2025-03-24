@@ -9,8 +9,7 @@
 #include <stdlib.h>
 
 
-#define VOL_MAX 79
-#define VOL_MIN 0
+
 
 struct TPT2258{
 	I2C_HandleTypeDef* i2c;
@@ -71,7 +70,14 @@ void J3_PT2258_setVolumeCanal(TPT2258* _pt2258, uint8_t _canal, uint8_t _vol){
 	uint8_t auxBuf[2];
 
 	if (_vol > VOL_MAX)
+	{
 		_vol = VOL_MAX;
+	}
+
+    if (_vol < VOL_MIN)
+    {
+        _vol = VOL_MIN;
+    }
 
 
 	auxBuf[0] = ( aCanais[_canal]  | (_vol % 10) ); // Byte da Unidade

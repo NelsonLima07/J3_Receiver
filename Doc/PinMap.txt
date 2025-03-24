@@ -14,7 +14,7 @@ PA1 <- Sinal LED Optico1 /* Ler se está ativo */
 PA2 <- Sinal LED Optico2
 PA3 <- Sinal LED Coaxial
 
-PA15 -> BtnInput [Audio_Conversor] /* Altera a entrada de Audio */
+PA9 -> Seleciona_Entrada_Audio(SELEC_ENT_AUDIO) [Audio_Conversor] /* Altera a entrada de Audio Altera indo pra GND e voltando pra Vcc */
 
 
 # INTERFACE DO DENCODER ROTATIVO

@@ -43,12 +43,13 @@ typedef struct {
   int8_t volume_sr;  /* SoundRound Right */
   int8_t volume_sw;  /* Subwoofer        */
   int8_t volume_master;
+  bool volume_master_mute;
 
 } receiver_t;
 
 
 
-receiver_t* j3_tReceiver_new(btnInput _funcBtnInput);  /* Instancia receiver_t */
+receiver_t* j3_tReceiver_new();  /* Instancia receiver_t */
 void j3_tReceiver_OnInterfaceOptico(receiver_t *_receiver, inputInterface _interface);
 void j3_tReceiver_OnInterfaceOptico2(receiver_t *_receiver, inputInterface _interface);
 void j3_tReceiver_OnInterfaceCoaxial(receiver_t *_receiver, inputInterface _interface);

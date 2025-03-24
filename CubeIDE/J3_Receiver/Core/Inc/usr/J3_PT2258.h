@@ -38,6 +38,9 @@
  *   0     0      0x80
  */
 
+#define VOL_MAX 79
+#define VOL_MIN 0
+
 typedef struct TPT2258 TPT2258;
 
 TPT2258* J3_PT2258_new(I2C_HandleTypeDef* _i2c, uint8_t _i2c_address); /* Retorna um ponteiro para o CI PT2258 */

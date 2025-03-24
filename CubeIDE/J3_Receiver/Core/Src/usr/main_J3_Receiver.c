@@ -11,48 +11,74 @@
 #include "usr/J3_PT2258.h"
 
 
-receiver_t receiver;
+#define TEMPO_LENTO 2000
+#define TEMPO_NORMAL 1000
+#define TEMPO_RAPIDO 500
 
-/* Btn q muda o input do decodificador */
-void DoBtnInput(void)
+#define DEBOUNCE_DELAY 100
+
+uint16_t tempoLED = TEMPO_NORMAL;
+
+volatile bool btnEncoder_presFlag = false;
+volatile uint32_t btnEncoder_lastTime = 0;
+
+volatile bool clkEncoder_presFlag = false;
+volatile uint32_t clkEncoder_lastTime = 0;
+
+volatile bool dtEncoder_presFlag = false;
+volatile uint32_t dtEncoder_lastTime = 0;
+
+
+
+/* funcao altera o input do Decodificador */
+void btnSelecEntAudio(void)
 {
-  HAL_GPIO_WritePin(BTN_INPUT_GPIO_Port, BTN_INPUT_Pin, GPIO_PIN_RESET);
-  HAL_Delay(200);   /* Espera o debounce  */
-  HAL_GPIO_WritePin(BTN_INPUT_GPIO_Port, BTN_INPUT_Pin, GPIO_PIN_SET);
-  HAL_Delay(1200);   /*  */
+  HAL_GPIO_WritePin(SELEC_ENT_AUDIO_GPIO_Port, SELEC_ENT_AUDIO_Pin, GPIO_PIN_RESET);
+  HAL_Delay(20);   /* 30ms Espera o debounce  */
+  HAL_GPIO_WritePin(SELEC_ENT_AUDIO_GPIO_Port, SELEC_ENT_AUDIO_Pin, GPIO_PIN_SET);
 }
 
-uint8_t DoInterfaceOptica(void)
+
+/* D1 D2 e D3 sao inerface para inticar qual entrada de audio está ativa  */
+/*
+ D1 = On => Optical 1
+ D2 = On => Optical 2
+ D3 = On => Coaxial
+ D1, D2 e D3 = Off => Analogico
+
+*/
+
+uint8_t lerD1(void)
 {
   return HAL_GPIO_ReadPin(ENT_D1_GPIO_Port, ENT_D1_Pin);
 }
 
-uint8_t DoInterfaceOprtica2(void)
+uint8_t lerD2(void)
 {
   return HAL_GPIO_ReadPin(ENT_D2_GPIO_Port, ENT_D2_Pin);
 }
 
-uint8_t DoInterfaceCoaxial(void)
+uint8_t lerD3(void)
 {
   return HAL_GPIO_ReadPin(ENT_D3_GPIO_Port, ENT_D3_Pin);
 }
 
 
-
-void HAL_GPIO_EXIT_Falling_Callback(uint16_t GPIO_Pin)
+/*   */
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
-  if(GPIO_Pin == ENCODER_BTN_Pin)
-  {
-
+  if( (GPIO_Pin == ENCODER_SW_Pin) && (btnEncoder_presFlag == false) ) {
+      btnEncoder_presFlag = true;
+      tempoLED = TEMPO_RAPIDO;
+      btnEncoder_lastTime = HAL_GetTick();
   }
-
-  if(GPIO_Pin == ENCODER_CLK_Pin)
-  {
-
+  else if( (GPIO_Pin == ENCODER_CLK_Pin) && (clkEncoder_presFlag == false) && (HAL_GPIO_ReadPin(ENCODER_CLK_GPIO_Port,ENCODER_CLK_Pin) == GPIO_PIN_RESET) ) {
+      clkEncoder_presFlag = true;
+      clkEncoder_lastTime = HAL_GetTick();
   }
-  if(GPIO_Pin == ENCODER_DT_Pin)
-  {
-
+  else if( (GPIO_Pin == ENCODER_DT_Pin) && (dtEncoder_presFlag == false) && (HAL_GPIO_ReadPin(ENCODER_DT_GPIO_Port,ENCODER_DT_Pin) == GPIO_PIN_RESET) ) {
+      dtEncoder_presFlag = true;
+      dtEncoder_lastTime = HAL_GetTick();
   }
 }
 
@@ -60,68 +86,93 @@ void HAL_GPIO_EXIT_Falling_Callback(uint16_t GPIO_Pin)
 
 void main_j3_receiver()
 {
+  HAL_Delay(50); /* Delay de estabilização das tensões e dos sistemas */
 
-//  receiver_t* receiver;
   TPT2258* controleVolume;
-/*
-  int8_t volume_fl;  // Front Left
-  int8_t volume_fr;   // Front Right
-  int8_t volume_fc;  // Front Center
-  int8_t volume_sl;  // SoundRound Left
-  int8_t volume_sr;  // SoundRound Right
-  int8_t volume_sw;  // Subwoofer
-  int8_t volume_master;
-*/
+  receiver_t* receiver;
+
+  uint32_t tmrLED_old = 0;
+  uint32_t auxSystickNow = 0;
+  //uint16_t tempoLED = TEMPO_LENTO;
+
 
   controleVolume = J3_PT2258_new(&hi2c1,  0x88);
+  receiver = j3_tReceiver_new();
 
   //receiver = j3_tReceiver_new(DoBtnInput);
   //j3_tReceiver_OnInterfaceOptico(receiver, DoInterfaceOptica);
   //j3_tReceiver_OnInterfaceOptico2(receiver, DoInterfaceOprtica2);
   //j3_tReceiver_OnInterfaceCoaxial(receiver, DoInterfaceCoaxial);
 
-  uint8_t ch1_vol = 70;
-  HAL_Delay(500);
+  uint8_t ch1_vol = 35;
+
   J3_PT2258_reset(controleVolume);
   HAL_Delay(500);
+  J3_PT2258_setVolumeCanal(controleVolume, 1, ch1_vol);
+  J3_PT2258_setVolumeCanal(controleVolume, 2, ch1_vol);
+  J3_PT2258_setVolumeCanal(controleVolume, 3, ch1_vol);
+  J3_PT2258_setVolumeCanal(controleVolume, 4, ch1_vol);
+  J3_PT2258_setVolumeCanal(controleVolume, 5, ch1_vol);
+  J3_PT2258_setVolumeCanal(controleVolume, 6, ch1_vol);
   J3_PT2258_setMuteOff(controleVolume);
   HAL_Delay(500);
-  //J3_PT2258_setVolumeCanal(controleVolume, 1, ch1_vol);
 
-  J3_PT2258_setVolumeCanal(controleVolume, 0, 1);
   while(1)
   {
+      auxSystickNow = HAL_GetTick();
 
-      J3_PT2258_setVolumeCanal(controleVolume, 1, 5);
-      J3_PT2258_setVolumeCanal(controleVolume, 2, 10);
-      J3_PT2258_setVolumeCanal(controleVolume, 3, 10);
-      J3_PT2258_setVolumeCanal(controleVolume, 4, 10);
-      J3_PT2258_setVolumeCanal(controleVolume, 5, 10);
-      J3_PT2258_setVolumeCanal(controleVolume, 6, 1);
-      //J3_PT2258_setVolumeCanal(controleVolume, 2, 10);
-     // J3_PT2258_setVolumeCanal(controleVolume, 3, 750);
-      HAL_Delay(3000);
-      HAL_GPIO_TogglePin(LED_PLACA_GPIO_Port, LED_PLACA_Pin);
-      //J3_PT2258_setVolumeCanal(controleVolume, 3, 20);
-      J3_PT2258_setVolumeCanal(controleVolume, 6, 10);
-      HAL_Delay(3000);
-      J3_PT2258_setVolumeCanal(controleVolume, 6, 30);
-      //DoBtnInput();
-      HAL_GPIO_TogglePin(LED_PLACA_GPIO_Port, LED_PLACA_Pin);
-     // J3_PT2258_setVolumeCanal(controleVolume, 3, 70);
-      HAL_Delay(3000);
-      J3_PT2258_setVolumeCanal(controleVolume, 6, 60);
-      //DoBtnInput();
-      HAL_GPIO_TogglePin(LED_PLACA_GPIO_Port, LED_PLACA_Pin);
+      if((auxSystickNow - tmrLED_old) >= tempoLED)
+      {
+        HAL_GPIO_TogglePin(LED_PLACA_GPIO_Port, LED_PLACA_Pin);
+        tmrLED_old = auxSystickNow;
+      }
+
+      if( ((auxSystickNow - btnEncoder_lastTime) >= DEBOUNCE_DELAY)  && btnEncoder_presFlag ) {
+
+          if (receiver->volume_master_mute){
+            J3_PT2258_setMuteOn(controleVolume);
+          }
+          else{
+            J3_PT2258_setMuteOff(controleVolume);
+          }
+          receiver->volume_master_mute = !receiver->volume_master_mute;
+          btnEncoder_presFlag = false;
+      }
 
 
-  //    j3_receiver_ProxEntrada(receiver);
+      if(clkEncoder_presFlag && dtEncoder_presFlag)
+      {
+        if (clkEncoder_lastTime >= dtEncoder_lastTime)
+        {
+            tempoLED = TEMPO_LENTO;
 
-    //j3_receiver_setEntrada(receiver, rsOptico1);
-    //HAL_Delay(5000);
-    //j3_receiver_setEntrada(receiver, rsAux);
-    //HAL_Delay(5000);
-    //j3_receiver_setEntrada(receiver, rsOptico2);
+            if(ch1_vol > 0){
+              ch1_vol--;
+            }
+
+            J3_PT2258_setVolumeCanal(controleVolume, 3, ch1_vol);
+            J3_PT2258_setVolumeCanal(controleVolume, 4, ch1_vol);
+
+        }
+        else
+        {
+            tempoLED = TEMPO_RAPIDO;
+
+            if(ch1_vol < 79){
+              ch1_vol++;
+            }
+
+            J3_PT2258_setVolumeCanal(controleVolume, 3, ch1_vol);
+            J3_PT2258_setVolumeCanal(controleVolume, 4, ch1_vol);
+        }
+
+        HAL_Delay(DEBOUNCE_DELAY);
+
+        clkEncoder_presFlag = false;
+        dtEncoder_presFlag = false;
+      }
+
+
   }
 
 }
